@@ -477,7 +477,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button class="footer-sbscrb-btn">
+            <button type="submit" class="footer-sbscrb-btn">
               Subscribe
               <svg class="footer-sbscrb-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -498,16 +498,16 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-container-block">
-            <label class="modal-form-label" for="user-text"> Name </label>
+            <label class="modal-form-label" for="user-name"> Name </label>
             <div class="modal-form-content">
               <input
                 class="modal-form-input"
-                id="user-text"
+                id="user-name"
                 type="text"
-                name="user-text"
+                name="user-name"
                 required
               />
-              <svg class="modal-form-icon" width="18" height="18">
+              <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -522,7 +522,7 @@
                 name="user-text"
                 required
               />
-              <svg class="modal-form-icon" width="18" height="18">
+              <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -537,7 +537,7 @@
                 name="user-text"
                 required
               />
-              <svg class="modal-form-icon" width="18" height="18">
+              <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
@@ -545,26 +545,34 @@
           <div class="modal-container-block">
             <label class="modal-form-label" for="user-comment"> Comment </label>
             <div class="modal-form-content">
-              <input
-                class="modal-form-input-comment"
+              <textarea
+                class="modal-container-textarea"
                 id="user-comment"
-                type="text"
-                name="user-text"
-                placeholder="text input"
-                required
-              />
+                name="user-comment"
+                placeholder="Text input"
+              ></textarea>
             </div>
             <div class="container-police">
-              <label class="label-police">
-                <input type="checkbox" />
+              <input
+                class="visually-hidden"
+                class="police-input"
+                type="checkbox"
+                id="user-privacy"
+                value="true"
+                name="user-privacy"
+              />
+              <label for="user-privacy" class="label-police">
                 I accept the terms and conditions of the
-                <a href="" class="form-text-police-link">Privacy Policy</a>
+                <span class="label-police-span">
+                  <svg width="10" height="8" class="label-span-svg">
+                    <use href="./images/icons.svg#icon-btn-yes"></use>
+                  </svg>
+                </span>
+                <a href="" class="label-police-link">Privacy Policy</a>
               </label>
             </div>
           </div>
-          <div class="form-btn-container">
-            <button type="submit" class="form-btn">Send</button>
-          </div>
+          <button type="submit" class="form-btn">Send</button>
         </form>
       </div>
     </div>
