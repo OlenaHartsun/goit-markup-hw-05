@@ -702,7 +702,7 @@ img {
 }
 
 .modal-container-block {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-form-label {
@@ -805,7 +805,7 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
-  justify-self: center;
+  justify-content: center;
   fill: transparent;
 }
 
