@@ -702,7 +702,7 @@ img {
 }
 
 .modal-container-block {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-form-label {
@@ -734,6 +734,10 @@ img {
 .modal-form-input:focus,
 .modal-form-input:hover {
   border: 1px solid #4d5ae5;
+}
+
+.modal-form-icon .modal-form-input:hover {
+  fill: #4d5ae5;
 }
 
 .modal-form-icon {
@@ -803,6 +807,10 @@ img {
   align-items: center;
   justify-self: center;
   fill: transparent;
+}
+
+.police-input {
+  visibility: hidden;
 }
 
 .label-input .label-police-span:checked {

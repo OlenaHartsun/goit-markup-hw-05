@@ -543,34 +543,31 @@
             </div>
           </div>
           <div class="modal-container-block">
+            <textarea
+              class="modal-container-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
             <label class="modal-form-label" for="user-comment"> Comment </label>
-            <div class="modal-form-content">
-              <textarea
-                class="modal-container-textarea"
-                id="user-comment"
-                name="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-            <div class="container-police">
-              <input
-                class="visually-hidden"
-                class="police-input"
-                type="checkbox"
-                id="user-privacy"
-                value="true"
-                name="user-privacy"
-              />
-              <label for="user-privacy" class="label-police">
-                I accept the terms and conditions of the
-                <span class="label-police-span">
-                  <svg width="10" height="8" class="label-span-svg">
-                    <use href="./images/icons.svg#icon-btn-yes"></use>
-                  </svg>
-                </span>
-                <a href="" class="label-police-link">Privacy Policy</a>
-              </label>
-            </div>
+          </div>
+          <div class="container-police">
+            <input
+              class="police-input"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label for="user-privacy" class="label-police">
+              I accept the terms and conditions of the
+              <span class="label-police-span">
+                <svg width="10" height="8" class="label-span-svg">
+                  <use href="./images/icons.svg#icon-btn-yes"></use>
+                </svg>
+              </span>
+              <a href="" class="label-police-link">Privacy Policy</a>
+            </label>
           </div>
           <button type="submit" class="form-btn">Send</button>
         </form>
