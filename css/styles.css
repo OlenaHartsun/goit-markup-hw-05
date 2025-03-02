@@ -717,7 +717,6 @@ img {
 
 .modal-form-content {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .modal-form-input {
@@ -736,7 +735,7 @@ img {
   border: 1px solid #4d5ae5;
 }
 
-.modal-form-icon .modal-form-input:hover {
+.modal-form-input:hover + svg {
   fill: #4d5ae5;
 }
 
@@ -752,6 +751,10 @@ img {
 .modal-form-icon:hover,
 .modal-form-icon:focus {
   fill: #4d5ae5;
+}
+
+.textarea {
+  margin-bottom: 16px;
 }
 
 .modal-container-textarea {
@@ -809,11 +812,7 @@ img {
   fill: transparent;
 }
 
-.police-input {
-  visibility: hidden;
-}
-
-.label-input .label-police-span:checked {
+.police-input:checked + .label-police .label-span-svg {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
