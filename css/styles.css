@@ -736,7 +736,7 @@ img {
   border: 1px solid #4d5ae5;
 }
 
-.modal-form-input:hover + svg {
+.modal-form-input:hover + .modal-form-icon {
   fill: #4d5ae5;
 }
 
