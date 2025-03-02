@@ -779,7 +779,6 @@ img {
 }
 
 .container-police {
-  position: absolute;
   margin-bottom: 24px;
 }
 
@@ -840,4 +839,5 @@ img {
   min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
+  margin: 0 auto;
 }
