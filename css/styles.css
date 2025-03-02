@@ -717,7 +717,6 @@ img {
 
 .modal-form-content {
   position: relative;
-  margin-bottom: 16px;
 }
 
 .modal-form-input {
@@ -788,7 +787,6 @@ img {
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-left: 8px;
 }
 
 .label-police {
