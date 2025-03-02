@@ -717,6 +717,7 @@ img {
 
 .modal-form-content {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .modal-form-input {
@@ -812,7 +813,7 @@ img {
   fill: transparent;
 }
 
-.police-input:checked + .label-police .label-span-svg {
+.police-input:checked + .label-police .label-police-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
